@@ -22,7 +22,7 @@
 
  git push -u origin master : Whatever origin we will add it will push the code from local repo to that remote repo
 
- git remote set-url : For changing your remote URL
+ git remote set-url : For changing your remote URL 
 
  
  
