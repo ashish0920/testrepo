@@ -1,0 +1,28 @@
+ yum install git -y  : To install git
+
+ which git          : To know path of git
+
+ git version   : To know the version
+
+ git config --global user.name "ashish"  : To config profile
+
+ git config --global user.email "ashishlodhi09@gmail.com"
+
+ git config --list : To list all config
+
+ git status : To check the status if the code is working area or pushed to staging area
+
+ git add . : To add file from working directory to staging area
+ 
+ git log : To know the commit id and log who made those changes
+
+ git show <commit id> : To show details what commit has been done to code base
+
+ git remote add origin <git url> :  To add local repository to remote repo
+
+ git push -u origin master : Whatever origin we will add it will push the code from local repo to that remote repo
+
+ git remote set-url : For changing your remote URL
+
+ 
+ 
