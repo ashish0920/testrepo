@@ -20,9 +20,25 @@
 
  git remote add origin <git url> :  To add local repository to remote repo
 
+ --> git remote add origin https://github.com/ashish0920/testrepo.git
+ --> git branch -M main
+ --> git push -u origin main
+
  git push -u origin master : Whatever origin we will add it will push the code from local repo to that remote repo
 
  git remote set-url : For changing your remote URL 
+
+-----------------------------------------------------------------------------------
+
+git init
+git add .
+git commit -m "message"
+git push
+ --> git remote add origin https://github.com/ashish0920/testrepo.git
+ --> git branch -M main
+ --> git push -u origin main
+
+
 
  
  
