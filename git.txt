@@ -28,6 +28,8 @@
 
  git push -u origin main : Whatever origin we will add it will push the code from local repo to that remote repo
 
+ git pull origin main : To pull code from repo
+
  git remote set-url : For changing your remote URL 
 
 -----------------------------------------------------------------------------------
