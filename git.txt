@@ -34,7 +34,10 @@
 
  git merge origin/main  : To merge the fetched changes into your branch
 
- git rebase origin/main : To incorporate the fetched changes by applying your local commits on top of the updated main branch, you can use rebase
+ git rebase origin/main : To incorporate the fetched changes by applying your local commits on top of the updated main branch, you can use rebase.
+
+ To ignore the files while commiting name a file define all the files format you don't want to be get committed.
+ 
 
 
 -----------------------------------------------------------------------------------
