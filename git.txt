@@ -13,6 +13,8 @@
  git status : To check the status if the code is working area or pushed to staging area
 
  git add . : To add file from working directory to staging area
+
+ git commit -m "message" : To add file from staging  area to local repository
  
  git log : To know the commit id and log who made those changes
 
@@ -21,7 +23,7 @@
  git remote add origin <git url> :  To add local repository to remote repo
 
  --> git remote add origin https://github.com/ashish0920/testrepo.git
- --> git branch -M main
+ --> git branch -M main  :  To create branch if it is a new repositroy
  --> git push -u origin main
 
  git push -u origin master : Whatever origin we will add it will push the code from local repo to that remote repo
