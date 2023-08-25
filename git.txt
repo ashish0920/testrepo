@@ -36,11 +36,20 @@
 
  git rebase origin/main : To incorporate the fetched changes by applying your local commits on top of the updated main branch, you can use rebase.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
  To ignore the files while commiting name a file define all the files format you don't want to be get committed.
- 
-
-
------------------------------------------------------------------------------------
+ create a file and define call the format in that file you want to ignore 
+ > vim .gitignore
+   *.java
+   *.css
+   ~
+   ~
+   :wq
+ > git add .gitgnore
+ > git commit -m "ignore file formats in this file"
+ > git push 
+ All the files will be pushed to remote repo except the format mentioned in this (.gitignore) file
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
