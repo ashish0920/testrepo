@@ -18,6 +18,12 @@
  
  git log : To know the commit id and log who made those changes
 
+ git log -1 : To show the last commit only
+
+ git log --oneline : To show all commits in one line
+
+ git log --grep "Word" : To find that commit where you have added this "word" in it's comment while commit
+
  git show <commit id> : To show details what commit has been done to code base
 
  git remote add origin <git url> :  To add local repository to remote repo
@@ -50,7 +56,12 @@
  > git push 
  All the files will be pushed to remote repo except the format mentioned in this (.gitignore) file
 ------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ git branch :  To see list of available branches
 
+ git branch <name> :  To create a new branch
+ 
+ git checkout <name of branch you want to switch> :  To switch branch
 
 
 
