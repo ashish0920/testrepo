@@ -44,7 +44,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
  To ignore the files while commiting name a file define all the files format you don't want to be get committed.
- create a file and define call the format in that file you want to ignore 
+ create a file and define all the format in that file you want to ignore 
  > vim .gitignore
    *.java
    *.css
@@ -55,13 +55,24 @@
  > git commit -m "ignore file formats in this file"
  > git push 
  All the files will be pushed to remote repo except the format mentioned in this (.gitignore) file
-------------------------------------------------------------------------------------------------------------------------------------------------
- 
- git branch :  To see list of available branches
 
- git branch <name> :  To create a new branch
+ * ctrl+L : to clear screen
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ * Untill we add files from working area to staging area we will be able to see that file from all branches once we add that to staging area of any particular branch we will not see it in any other branch.
+ 
+ git branch :  To see list of available branches (* Represent the current branch you are working on)
+
+ git branch <branch name> :  To create a new branch
+ 
+ --> Whenever we create a branch all data which is there in main branch will get copied to it's feature branch just do "ls" to check after you checkout to feature branch
  
  git checkout <name of branch you want to switch> :  To switch branch
+
+ * Merge : We use pulling mechanism to merge branches (Ex > (why) If we have created a feature branch and worked on it now we want to add that to main branch we will just pull the new files/code from feature branch not the complete files as while creating branch we have already copied everthing from main branch to feature branch)
+  
+ git merge <branch name> : When we want to merge any feature branch to main branch/another feature branch just go to the branch where where you want the feature branch to get merged then execute this command.
+ 
+ 
 
 
 
