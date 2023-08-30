@@ -78,7 +78,19 @@
 
  * Git conflict : When same name file have different content in different branches and you do merge resolve conflict then add/commi.
  
+ * Git stashing : When we have a requirement where we have to clean our working area for some other code and we want that we can continue the current code after sometime. We can put the current work to stashing area. Later when required we can start  working on it again.
  
+ git stash : To stash an item
+ 
+ git stash list : To see the list of stashed items
+
+ git stash apply stasg {Number of file} : To get file from stashed area to working area (It will copy/paste)
+
+ git stash clear :  To clear the stash item from the stashed area after we added  and commited that file and it's not required to be saved.
+
+ 
+
+  
  l
 
 
