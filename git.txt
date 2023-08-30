@@ -72,7 +72,22 @@
   
  git merge <branch name> : When we want to merge any feature branch to main branch/another feature branch just go to the branch where where you want the feature branch to get merged then execute this command.
  
+ * If you want any feature branch to get pushed to central repo after doing commit execute (below cmd) then it will show pull request url open that in browser merge it from browser.(*doubt) 
  
+ git push --set-upstream origin <featured branch name> : To push featured branch to central repo 
+
+ * Git conflict : When same name file have different content in different branches and you do merge resolve conflict then add/commi.
+ 
+ 
+ l
+
+
+
+
+
+
+
+
 
 
 
