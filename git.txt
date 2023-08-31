@@ -96,9 +96,9 @@
 
  * Git revert : Helps to undo an existing commit.(Done on public file) It does not delete any data in this process instead. Rather git creates a new commit with the included files reverted to their pervious state. So your version control history moves forward while the state of your files moves backward.
 
- git revert <commit id> : To skip the that particular commit 
+ git revert <commit id> : To skip that particular commit. -->> Once executed add a message why to skip this commit then save.
 
- git clean -n(dry run) / -f(forcefully) : To remove untracked files it will delete the files which we don't want to commit 
+ git clean -n(dry run) / -f(forcefully) : To remove untracked files it will delete the files which we don't want to commit or not added to staging area.
 
  * Tag : Tag operation allows giving meaninful names to specific version in the repository
 
@@ -106,7 +106,7 @@
 
  git tag :  To show all tags
 
- git show <tag name> : To see particular commit content by using tag
+ git show <tag name/commit-id> : To see particular commit content by using tag
 
  git tag -d <tag name> : To delete a tag
 
