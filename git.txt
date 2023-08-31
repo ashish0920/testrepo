@@ -104,6 +104,19 @@
 
  git tag -a <tagname> -m <message> <commit-id> : To apply tag
 
+ git tag :  To show all tags
+
+ git show <tag name> : To see particular commit content by using tag
+
+ git tag -d <tag name> : To delete a tag
+
+ * Github clone: The repo which is already there in central repo will get copied to your local repo with same content and name.
+
+ git clone <url> : To clone repo to local machine
+
+ 
+ 
+
  
 
  
