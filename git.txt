@@ -94,7 +94,7 @@
 
  git reset -- hard : To remove the file from both staging area and working area in once command.
 
- 
+ * Git revert : Helps to undo an existing commit.
 
   
  l
