@@ -102,11 +102,11 @@
 
  * Tag : Tag operation allows giving meaninful names to specific version in the repository
 
- git tag -a <tagname> -m <message> <commit-id> : To apply tag
+ git tag -a <tagname> -m "<message>" <commit-id> : To apply tag
 
  git tag :  To show all tags
 
- git show <tag name/commit-id> : To see particular commit content by using tag
+ git show <tag name/commit-id-a > : To see particular commit content by using tag
 
  git tag -d <tag name> : To delete a tag
 
