@@ -90,12 +90,23 @@
 
  git reset <filename>: If we have added the file to staging area and now we don't want to commit it for a single file. Once executed that file will not appear again in working directory.
  
- git reset. : Same as above but for all files.
+ git reset. : Same as above but for all files. (Done on private file)
 
  git reset -- hard : To remove the file from both staging area and working area in once command.
 
- * Git revert : Helps to undo an existing commit.
+ * Git revert : Helps to undo an existing commit.(Done on public file) It does not delete any data in this process instead. Rather git creates a new commit with the included files reverted to their pervious state. So your version control history moves forward while the state of your files moves backward.
 
+ git revert <commit id> : To skip the that particular commit 
+
+ git clean -n(dry run) / -f(forcefully) : To remove untracked files it will delete the files which we don't want to commit 
+
+ * Tag : Tag operation allows giving meaninful names to specific version in the repository
+
+ git tag -a <tagname> -m <message> <commit-id> : To apply tag
+
+ 
+
+ 
   
  l
 
